@@ -1,0 +1,209 @@
+
+
+
+body{
+    background-color: #91b1b4;
+    font-family: 'Gowun Batang', 'Noto Serif KR', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(255, 255, 255);
+}
+
+.navigator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:10px;
+    margin-left: 15px;
+}
+
+.menu{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #627a7c;
+    transition: 0.4s;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto; 
+    margin-right: auto;    
+}
+
+.name{
+    font-weight: 100;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.nameEng{
+    font-size: 30px;
+    color:#627a7c;
+    margin-bottom: 100px;
+    margin-left: 650px; 
+}
+
+.hellominsu{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+.birth{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.hobby, .likelion, .drama, .food{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myhobby, .mylikelion, .mydrama, .likefood, .hatefood{
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.game, .raidapp, .seonjae, .cake, .ray{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.gamephoto{
+    display: flex;
+}
+
+.lol, .pokemongo, .animalcrossing{
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+.likelion{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 400px; 
+}
+
+.appphoto{
+    display: flex;
+    margin-left: 300px; 
+}
+
+.raidphoto1, .raidphoto2 {
+    width: 700px;
+    height: auto;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+
+.raidphoto1, .raidphoto2 {
+    width: 200px;
+    height: auto; 
+    margin-right: 30px; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+.drama{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 400px; 
+}
+
+.seonjaeimg{
+    width: 500px;
+    height: auto;  
+    margin-left: 300px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+.aboutseonjae{
+    align-content: center;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left:-100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.aboutseonjae span:hover {
+    color: #627a7c; 
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 400px; 
+}
+
+.footer{
+    text-align: center;
+}
